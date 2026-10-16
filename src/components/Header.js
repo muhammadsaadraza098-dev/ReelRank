@@ -84,7 +84,7 @@ export const Header = () => {
               data-collapse-toggle="navbar-search"
               aria-controls="navbar-search"
               aria-expanded="false"
-              className="flex items-center justify-center md:hidden text-body hover:text-heading bg-transparent box-border border border-transparent hover:bg-neutral-secondary-medium focus:ring-2 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm w-10 h-10 focus:outline-none"
+              className="flex items-center justify-center md:hidden text-body hover:text-heading bg-transparent box-border border border-gray-200 hover:bg-neutral-secondary-medium focus:ring-2 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm w-10 h-10 focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
@@ -131,7 +131,7 @@ export const Header = () => {
                   type="text"
                   name="search"
                   id="input-group-1"
-                  className="block w-full ps-9 pe-3 py-2.5 bg-transparent border border-slate-700 text-heading text-sm rounded-lg focus:ring-brand focus:border-brand px-2.5  shadow-xs placeholder:text-body dark:placeholder:text-white dark:text-white"
+                  className="block w-full ps-9 pe-3 py-2.5 bg-transparent border border-gray-200 text-heading text-sm rounded-lg focus:ring-gray-200 focus:border-gray-200 px-2.5  shadow-xs placeholder:text-body dark:placeholder:text-white dark:text-white"
                   placeholder="Search"
                   autoComplete="off"
                 />
