@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2=".8" y2="1"><stop offset="0" stop-color="#fff56b"/><stop offset=".28" stop-color="#ffc928"/><stop offset=".62" stop-color="#ff9b00"/><stop offset="1" stop-color="#d94b00"/></linearGradient>
+    <linearGradient id="goldEdge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffbc2"/><stop offset=".5" stop-color="#ff9b12"/><stop offset="1" stop-color="#ff5a00"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#00f6ff"/><stop offset=".45" stop-color="#087bff"/><stop offset="1" stop-color="#0035a7"/></linearGradient>
+    <radialGradient id="reelGold" cx="35%" cy="20%" r="90%"><stop stop-color="#fff36b"/><stop offset=".45" stop-color="#ffb900"/><stop offset="1" stop-color="#e95a00"/></radialGradient>
+    <filter id="glowGold" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 1  0 1 0 0 .45  0 0 1 0 0  0 0 0 1 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowBlue" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 .35  0 0 1 0 1  0 0 0 1 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Transparent background; isolated ReelRank emblem -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- crown -->
+    <path d="M365 242 L330 158 L414 204 L512 78 L610 204 L694 158 L659 242 Z" fill="url(#gold)" stroke="url(#goldEdge)" stroke-width="5" filter="url(#glowGold)"/>
+    <g fill="url(#gold)" stroke="#fff16a" stroke-width="4" filter="url(#glowGold)"><circle cx="330" cy="155" r="17"/><circle cx="512" cy="75" r="19"/><circle cx="694" cy="155" r="17"/></g>
+    <!-- stylized R body -->
+    <path d="M218 270 H566 C675 270 743 328 743 423 C743 497 698 550 632 573 L820 794 H650 L500 603 H350 V843 Q350 875 319 903 L218 994 Z" fill="url(#gold)" stroke="url(#goldEdge)" stroke-width="6" filter="url(#glowGold)"/>
+    <!-- upper bowl negative shape -->
+    <path d="M352 324 H551 C621 324 676 360 676 421 C676 481 624 522 551 522 H352 Z" fill="#02091b" stroke="#ffbd27" stroke-width="4"/>
+    <!-- film reel disk -->
+    <circle cx="447" cy="449" r="122" fill="url(#reelGold)" stroke="#ffe96a" stroke-width="6" filter="url(#glowGold)"/>
+    <circle cx="447" cy="449" r="98" fill="none" stroke="#ffed75" stroke-opacity=".65" stroke-width="3"/>
+    <g fill="#02091b" stroke="#ffcf37" stroke-width="4">
+      <circle cx="447" cy="394" r="27"/><circle cx="391" cy="439" r="27"/><circle cx="503" cy="439" r="27"/><circle cx="414" cy="500" r="27"/><circle cx="480" cy="500" r="27"/><circle cx="447" cy="449" r="10"/>
+    </g>
+    <!-- curling film strip across the R leg -->
+    <path d="M326 524 C323 614 372 663 465 699 C558 735 665 744 730 829 C757 865 770 902 773 938 C713 868 665 849 591 828 C475 795 378 760 330 690 C294 638 291 579 326 524 Z" fill="url(#blue)" stroke="#00eaff" stroke-width="5" filter="url(#glowBlue)"/>
+    <!-- film perforations -->
+    <g fill="#02091b" stroke="#16caff" stroke-width="3">
+      <path d="M326 584 L348 607 L348 650 L326 630 Z"/><path d="M367 653 L397 672 L397 713 L367 699 Z"/><path d="M421 687 L454 700 L454 742 L421 731 Z"/><path d="M478 710 L511 720 L511 762 L478 752 Z"/><path d="M535 729 L568 744 L568 785 L535 773 Z"/><path d="M591 754 L622 775 L622 814 L591 800 Z"/><path d="M644 788 L673 814 L673 850 L644 834 Z"/><path d="M695 830 L718 854 L718 887 L695 870 Z"/>
+    </g>
+    <!-- highlights -->
+    <path d="M232 281 H562 C630 281 688 307 716 354" fill="none" stroke="#fff6a5" stroke-width="5" opacity=".9"/>
+    <path d="M228 956 L228 300" fill="none" stroke="#fff08a" stroke-width="4" opacity=".8"/>
+  </g>
+</svg>
