@@ -84,7 +84,7 @@ export const Header = () => {
               data-collapse-toggle="navbar-search"
               aria-controls="navbar-search"
               aria-expanded="false"
-              className="flex items-center justify-center md:hidden text-body hover:text-heading bg-transparent box-border border border-gray-200 hover:bg-neutral-secondary-medium focus:ring-2 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm w-10 h-10 focus:outline-none"
+              className="flex items-center justify-center md:hidden text-body dark:text-white hover:text-heading bg-transparent box-border border border-transparent hover:bg-neutral-secondary-medium focus:ring-2 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm w-10 h-10 focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
